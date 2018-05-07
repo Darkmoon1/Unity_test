@@ -69,6 +69,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FSMClearSignals.cs" />
+    <Compile Include="Assets\FSMOnEnter.cs" />
+    <Compile Include="Assets\FSMOnExit.cs" />
+    <Compile Include="Assets\OnGroundSenser.cs" />
     <Compile Include="Assets\PlayerInput.cs" />
     <Compile Include="Assets\actorController.cs" />
   </ItemGroup>
