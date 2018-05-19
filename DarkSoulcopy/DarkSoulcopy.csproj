@@ -69,12 +69,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FSMClearSignals.cs" />
-    <Compile Include="Assets\FSMOnEnter.cs" />
-    <Compile Include="Assets\FSMOnExit.cs" />
-    <Compile Include="Assets\OnGroundSenser.cs" />
-    <Compile Include="Assets\PlayerInput.cs" />
-    <Compile Include="Assets\actorController.cs" />
+    <Compile Include="Assets\script\FSMClearSignals.cs" />
+    <Compile Include="Assets\script\FSMOnEnter.cs" />
+    <Compile Include="Assets\script\FSMOnExit.cs" />
+    <Compile Include="Assets\script\FSMOnUpdate.cs" />
+    <Compile Include="Assets\script\OnGroundSenser.cs" />
+    <Compile Include="Assets\script\PlayerInput.cs" />
+    <Compile Include="Assets\script\actorController.cs" />
+    <Compile Include="Assets\script\cameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
